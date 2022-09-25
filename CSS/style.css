@@ -121,3 +121,28 @@ body {
 .size-container span {
   float: right;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(../images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .storage-container {
+    width: 300px;
+  }
+
+  .logo-container__main {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
