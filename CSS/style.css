@@ -23,7 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Raleway;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   color: var(--white);
 }
@@ -36,45 +36,45 @@ body {
 
 .logo-container__main {
   background-color: var(--dark-blue);
-  margin-right: 30px;
-  width: 300px;
-  height: 170px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 90px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  margin-right: 1.875rem;
+  width: 18.75rem;
+  height: 10.625rem;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 5.625rem;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 35px;
+  padding-left: 2.1875rem;
 }
 
 .logo-container__second {
   display: flex;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 
 .logo-around {
   background-color: var(--very-dark-blue);
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
+  margin-right: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
 }
 
 .storage-container {
   background-color: var(--dark-blue);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 450px;
-  height: 130px;
-  padding-left: 35px;
+  width: 28.125rem;
+  height: 8.125rem;
+  padding-left: 2.1875rem;
 }
 
 .article-container span {
@@ -87,20 +87,20 @@ body {
 
 .gradient-container__main {
   width: 91%;
-  height: 14px;
+  height: 0.875rem;
   background-color: var(--very-dark-blue);
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 10px 0;
-  border-radius: 50px;
+  margin: 0.625rem 0;
+  border-radius: 3.125rem;
 }
 
 .gradient-container {
   background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   width: 75%;
-  height: 10px;
-  border-radius: 50px;
+  height: 0.625rem;
+  border-radius: 3.125rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -108,13 +108,13 @@ body {
 
 .white-dot-container {
   background-color: var(--white);
-  width: 8px;
-  height: 8px;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
 }
 
 .size-article {
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 90%;
 }
 
@@ -122,7 +122,7 @@ body {
   float: right;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5rem) {
   body {
     background-image: url(../images/bg-mobile.png);
     background-repeat: no-repeat;
@@ -138,11 +138,11 @@ body {
   }
 
   .storage-container {
-    width: 300px;
+    width: 18.75rem;
   }
 
   .logo-container__main {
-    margin-right: 0px;
-    margin-bottom: 20px;
+    margin-right: 0rem;
+    margin-bottom: 1.25rem;
   }
 }
