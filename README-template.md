@@ -18,8 +18,6 @@ Very fun "project", made with HTML and CSS. Used also CSS FlexBox.
 
 ### The challenge
 
-Users should be able to:
-
 - Responsive design
 - Gradient bar
 - Justify content
