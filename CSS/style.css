@@ -192,6 +192,6 @@ body {
     position: absolute;
     color: var(--black);
     border-radius: 10px;
-    display: none;
+    display: block;
   }
 }
